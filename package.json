@@ -1,0 +1,28 @@
+{
+  "name": "curso_observatorio",
+  "version": "1.0.0",
+  "dependencies": {
+    "PageTransitions": "git://github.com/jpbaena13/PageTransitions.git",
+    "animate.css": "^3.5.2",
+    "bootstrap": "^3.3.7",
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-uglify": "^2.0.0",
+    "jquery": "^3.1.1",
+    "jquery-ui": "^1.12.1",
+    "napa": "^2.3.0",
+    "plugins": "git://github.com/jpbaena13/Plugins.git"
+  },
+  "scripts": {
+    "install": "napa vitch/jScrollPane",
+    "grunt": "grunt"
+  },
+  "devDependencies": {
+    "@vimeo/player": "^2.1.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-uglify": "^2.3.0"
+  }
+}
