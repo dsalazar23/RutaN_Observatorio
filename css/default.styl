@@ -1,0 +1,345 @@
+*
+	margin 0
+	padding 0
+	
+body
+	overflow hidden
+	background-image url('../img/background.png')
+	background-repeat no-repeat
+	background-size cover
+	min-width 850px
+	
+iframe 
+	border none
+	
+#flexible-box
+	position absolute
+	top 0
+	left 0
+	bottom 0
+	right 0
+	.full-template
+		padding 10px 0px
+		width 1366px
+		height 768px
+		overflow hidden	
+		position absolute		
+		.mainContain
+			width 100%
+			height 100%
+			
+.pageSheet
+	width 100%
+	height 100%
+	position: relative
+	padding 0 50px
+	.pageFlex
+		display flex
+		flex-direction column
+		justify-content center
+	.contentSheet
+		width 100%
+		height 100%
+		.headerSheet
+			width 100%
+			padding-left 26%
+			padding-top 20px
+			.titlePage
+				font-size 42px
+				color #b2ce06
+				margin 0
+				text-transform uppercase
+				padding-left 40px
+			&:before
+				content " "
+				width 300px
+				height 3px
+				background-color #fff
+				position absolute
+				top 6%
+				left 5%
+		
+		[class*='column-'] 
+			float: left;
+			img
+				width 100%
+				
+		.column-12-12
+			width 100%			
+		.column-11-12
+			width 91.66%			
+		.column-10-12
+			width 83.33%			
+		.column-9-12
+			width 75%			
+		.column-8-12
+			width 66.66%			
+		.column-7-12
+			width 58.33%			
+		.column-6-12
+			width 50%			
+		.column-5-12
+			width 41.66%			
+		.column-4-12
+			width 33.33%			
+		.column-3-12
+			width 25%			
+		.column-2-12
+			width 16.66%			
+		.column-1-12
+			width 8.33%			
+			
+		.push-column-11-12
+			margin-left 91.66%			
+		.push-column-10-12
+			margin-left 83.33%			
+		.push-column-9-12
+			margin-left 75%			
+		.push-column-8-12
+			margin-left 66.66%			
+		.push-column-7-12
+			margin-left 58.33%			
+		.push-column-6-12
+			margin-left 50%			
+		.push-column-5-12
+			margin-left 41.66%			
+		.push-column-4-12
+			margin-left 33.33%			
+		.push-column-3-12
+			margin-left 25%			
+		.push-column-2-12
+			margin-left 16.66%			
+		.push-column-1-12
+			margin-left 8.33%
+			
+		.tcenter
+			text-align center !important
+
+		.txt
+			color #fff
+			text-align left
+		.txt1
+			font-size 26px
+		.txt2
+			font-size 23px
+		.txt3
+			font-size 20px
+		.txt4
+			font-size 18px
+			
+		.titles
+			color #b2ce06
+			text-align left
+		.title1
+			font-size 32px
+		.title2
+			font-size 29px
+		.title3
+			font-size 26px
+		
+		img
+			width 100%
+	.navPages
+		position: absolute
+		width 50px
+		height 90px
+		background-image url('../img/nav-arrow.png')
+		background-repeat no-repeat
+		background-size 50px
+		cursor pointer
+		div.dl-menu
+			width 100%
+			height 100%
+			ul.dl-menu
+				width 100%
+				height 100%
+				li
+					width 100%
+					height 100%
+					list-style none
+	.navLeft
+		top 50%
+		left 0%
+		transform translateY(-50%) rotate(180deg)
+	.navRight
+		top 50%
+		right 0%
+		transform translateY(-50%)
+	.off
+		display none
+		
+
+#pt-page-0
+	.pageSheet
+		.contentSheet
+			position: relative
+			.element1
+				position: absolute
+				width 160px
+				left -50px
+			.element2
+				position: absolute
+				width 80%
+				top 50%
+				left 50%
+				transform translate(-50%, -50%)
+				
+#pt-page-1
+	.pageSheet
+		.contentSheet
+			.centerFlex
+				display flex
+				justify-content space-between
+				align-items center
+				margin-bottom 80px
+				
+#pt-page-2
+	.pageSheet
+		.contentSheet
+			.elementSheet
+				position relative
+				height 100%
+				.boxesPage2
+					padding-right 15px
+					.boxesp2						
+						border-radius 7px
+						background-color rgba(255,255,255,0.4)
+						padding 5px
+						p
+							text-align right !important
+							span
+								color #b2ce06
+								font-weight bold
+						.icos
+							width 100px
+							display block
+							margin-left auto
+					.boxesp2:nth-child(-n+4)
+						height 250px
+						margin-bottom 20px
+						margin-top 26px
+				.absElements
+					position absolute
+				.inicio
+					transform rotate(-89.7deg)
+					top 100px
+					left -120px
+				.acciones
+					right 20px
+					top -5px
+				.mundo
+					width 40px
+					top 210px
+					right -30px
+				.texto
+					transform rotate(-89.7deg)
+					right -145px
+					transform rotate(-89.95deg)
+					bottom 190px
+				.resultados
+					bottom -22px
+					right 20px
+				.line
+					height 3px
+					width 100%
+					background-color #fff
+					top 290px
+				.animatedPoints1
+					top 275px
+					left -22px
+				.animatedPoints2
+					top 275px
+					left 240px
+				.animatedPoints3
+					top 275px
+					left 503px
+				.animatedPoints4
+					top 275px
+					left 768px
+				.animatedPoints5
+					top 275px
+					left 1022px
+
+#pt-page-3
+	.pageSheet
+		.contentSheet
+			position relative
+			#elementpg3-1
+				width 800px
+				position absolute
+				top 50%
+				left 50%
+				transform translate(-50%, -50%)
+			#elementpg3-2
+				position absolute
+				width 250px
+				top 140px
+				left 160px
+				text-align center
+			#elementpg3-3
+				width 82px
+				height 82px
+				background-color rgba(0,0,0,.2)
+				border-radius 50%
+				position absolute
+				top 224px
+				left 233px
+				cursor pointer
+			#elementpg3-4
+				position absolute
+				width 170px
+				text-align center
+				top 190px
+				right 50px
+			#elementpg3-5
+				width 82px
+				height 82px
+				background-color rgba(0,0,0,.2)
+				border-radius 50%
+				position absolute
+				top 183px
+				right 233px
+				cursor pointer
+			#elementpg3-6
+				width 160px
+				text-align center
+				position absolute
+				top 500px
+				right 440px
+			#elementpg3-7
+				width 82px
+				height 82px
+				background-color rgba(0,0,0,.2)
+				border-radius 50%
+				position absolute
+				top 483px
+				right 364px
+				cursor pointer
+				
+#pt-page-4
+	.pageSheet
+		.contentSheet
+			.fila1
+				margin-top 30px
+				.box1Pg4
+					display flex
+					flex-direction row
+					justify-content center
+					align-items center
+					background-color rgba(255,255,255,0.4)
+					border-radius 7px
+					padding 5px
+					width 95%
+					height 65px
+					margin 0 auto
+					.ico
+						margin-right 10px
+			.fila2
+				.box2Pg4
+					background-color rgba(255,255,255,0.4)
+					border-radius 7px
+					padding 10px 20px
+					width 90%
+					margin 0 auto
+					margin-top 30px
+					height 300px

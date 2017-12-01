@@ -14,7 +14,7 @@ module.exports = function(grunt) {
 					  'node_modules/PageTransitions/js/modernizr.custom.js',
 					  'node_modules/PageTransitions/js/jquery.dlmenu.js',
 					  'js/resize.js',
-					  'node_modules/PageTransitions/js/pagetransitions.js'
+					  'node_modules/PageTransitions/js/pagetransitions.js',
 					  'node_modules/@vimeo/player/dist/player.min.js',
 
 					  // Plugins
@@ -24,7 +24,7 @@ module.exports = function(grunt) {
 					  'node_modules/plugins/drag-and-drop/js/jquery.drag-and-drop.js',
 					  'node_modules/plugins/memory-game/js/jquery.memory-game.js',
 					  'node_modules/plugins/quiz/js/jquery.quiz.js',
-					  'node_modules/plugins/sort-letters-game/js/jquery.sortletters.js',
+					  'node_modules/plugins/sort-letters-game/js/jquery.sortletters.js'
 				
 					 ],
 				dest: 'js/vendors.min.js'
@@ -47,7 +47,7 @@ module.exports = function(grunt) {
 			target: {
 				files: {
 					'css/vendors.css': 	[
-						"common/css/fonts.css",
+						// "css/fonts.css",
 						"node_modules/bootstrap/dist/css/bootstrap.css",
 						"node_modules/jquery-ui/dist/jquery-ui.css",
 						"node_modules/jScrollPane/style/jquery.jscrollpane.css",
@@ -62,7 +62,7 @@ module.exports = function(grunt) {
 						"node_modules/plugins/drag-and-drop/css/drag-and-drop.css",
 						"node_modules/plugins/memory-game/css/memory-game.css",
 						"node_modules/plugins/quiz/css/quiz.css",
-						"node_modules/plugins/sort-letters-game/css/sortletters.css",
+						"node_modules/plugins/sort-letters-game/css/sortletters.css"
 					]
 				}
 			}

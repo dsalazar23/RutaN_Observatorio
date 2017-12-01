@@ -1,5 +1,5 @@
 node_modules
 
-common/js/vendors.min.js
-common/css/vendors.css
+js/vendors.min.js
+css/vendors.css
 *.db
