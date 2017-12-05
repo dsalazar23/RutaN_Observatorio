@@ -6,6 +6,21 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<link rel="stylesheet" href="css/vendors.css">
 		<link rel="stylesheet" href="css/default.css">
+		<style>
+			.lnt-video {
+				padding-bottom: 56.25%;
+				position: relative;
+				height: 0;
+			}
+			.lnt-video iframe {
+				border: none;
+				left: 0;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
+		</style>
 	</head>
 	<body>
 		<div id="flexible-box">
@@ -111,7 +126,7 @@
 									<div class="column-12-12">
 										<div class="column-10-12 push-column-1-12 elementSheet">
 											<div class="column-3-12 boxesPage2">
-												<div class="boxesp2">
+												<div class="boxesp2" data-box="1">
 													<p class="titles title2">2014</p>
 													<div class="icos">
 														<img src="img/OB_IM_06.png" alt="">
@@ -120,7 +135,7 @@
 												</div>
 											</div>
 											<div class="column-3-12 boxesPage2">
-												<div class="boxesp2">
+												<div class="boxesp2" data-box="2">
 													<p class="titles title2">2015</p>
 													<div class="icos" style="width: 150px;">
 														<img src="img/OB_IM_07.png" alt="">
@@ -129,7 +144,7 @@
 												</div>
 											</div>
 											<div class="column-3-12 boxesPage2">
-												<div class="boxesp2">
+												<div class="boxesp2" data-box="3">
 													<p class="titles title2">2016</p>
 													<div class="icos">
 														<img src="img/OB_IM_08.png" alt="">
@@ -138,7 +153,7 @@
 												</div>
 											</div>
 											<div class="column-3-12 boxesPage2">
-												<div class="boxesp2">
+												<div class="boxesp2" data-box="4">
 													<p class="titles title2">2017</p>
 													<div class="icos">
 														<img src="img/OB_IM_09.png" alt="">
@@ -147,7 +162,7 @@
 												</div>
 											</div>
 											<div class="boxesPage2 push-column-3-12 column-3-12">
-												<div class="boxesp2" style="height: 360px; margin-top: 5px;">
+												<div class="boxesp2" style="height: 360px; margin-top: 5px;" data-box="5">
 													<p class="txt txt4">
 														<span>3</span> <br>
 														Mercados <br>
@@ -163,7 +178,7 @@
 												</div>
 											</div>
 											<div class="column-3-12 boxesPage2">
-												<div class="boxesp2" style="height: 360px; margin-top: 5px;">
+												<div class="boxesp2" style="height: 360px; margin-top: 5px;" data-box="6">
 													<p class="txt txt4">
 														<span>4</span> <br>
 														Mercados <br>
@@ -179,14 +194,14 @@
 												</div>
 											</div>
 											<div class="column-3-12 boxesPage2">
-												<div class="boxesp2" style="height: 360px; margin-top: 5px;">
+												<div class="boxesp2" style="height: 360px; margin-top: 5px;" data-box="7">
 													<p class="txt txt4">
 														<span>60</span> <br>
 														Informes de Vigilancia Tecnológica, incluyendo las alertas de mercado
 													</p>
 												</div>
 											</div>
-											<div class="absElements inicio">
+											<div class="absElements inicio" data-box="1">
 												<p class="titles title2 tcenter">2013</p>
 												<p class="txt txt4">Inicio de actividades</p>
 											</div>
@@ -201,19 +216,19 @@
 											</div>
 											<div class="absElements resultados"><p class="titles title3">Resultados</p></div>
 											<div class="absElements line"></div>
-											<div class="absElements animatedPoints1">
+											<div class="absElements animated pulse infinite pointsP2 animatedPoints1" data-bx="1">
 												<img src="img/OB_IM_11.png" alt="">
 											</div>
-											<div class="absElements animatedPoints2">
+											<div class="absElements animated pulse infinite pointsP2 animatedPoints2" data-bx="2,5">
 												<img src="img/OB_IM_11.png" alt="">
 											</div>
-											<div class="absElements animatedPoints3">
+											<div class="absElements animated pulse infinite pointsP2 animatedPoints3" data-bx="3,6">
 												<img src="img/OB_IM_11.png" alt="">
 											</div>
-											<div class="absElements animatedPoints4">
+											<div class="absElements animated pulse infinite pointsP2 animatedPoints4" data-bx="4,7">
 												<img src="img/OB_IM_11.png" alt="">
 											</div>
-											<div class="absElements animatedPoints5">
+											<div class="absElements pointsP2 animatedPoints5">
 												<img src="img/OB_IM_11.png" alt="">
 											</div>
 										</div>
@@ -249,15 +264,15 @@
 										<div class="elementsPg3" id="elementpg3-2">
 											<p class="txt txt1">¿Quiénes participan del observatorio?</p>
 										</div>
-										<div class="elementsPg3" id="elementpg3-3"></div>
+										<div class="elementsPg3 fire-popup animated infinite zoomIn" id="elementpg3-3" data-pop="popup-1"></div>
 										<div class="elementsPg3" id="elementpg3-4">
 											<p class="txt txt1">¿Qué es el observatorio?</p>
 										</div>
-										<div class="elementsPg3" id="elementpg3-5"></div>
+										<div class="elementsPg3 fire-popup animated infinite zoomIn" id="elementpg3-5" data-pop="popup-2"></div>
 										<div class="elementsPg3" id="elementpg3-6">
 											<p class="txt txt1">¿A quién se dirige?</p>
 										</div>
-										<div class="elementsPg3" id="elementpg3-7"></div>
+										<div class="elementsPg3 fire-popup animated infinite zoomIn" id="elementpg3-7" data-pop="popup-3"></div>
 										</div>
 								</div>								
 								<div class="navPages navLeft">
@@ -287,19 +302,19 @@
 										<p class="txt tcenter title1">OBSERVATORIO</p>
 										<div class="column-12-12 fila1">
 											<div class="column-4-12">
-												<div class="box1Pg4" id="boxPg4_1">
+												<div class="box1Pg4 animated infinite pulse" id="boxPg4_1" data-page="7">
 													<div class="ico"><img src="img/OB_IM_13.png" alt=""></div>
 													<div class="titles title3">Alertas de mercado</div>
 												</div>
 											</div>
 											<div class="column-4-12">
-												<div class="box1Pg4" id="boxPg4_2">
+												<div class="box1Pg4 animated infinite pulse" id="boxPg4_2" data-page="9">
 													<div class="ico"><img src="img/OB_IM_14.png" alt=""></div>
 													<div class="titles title3">Áreas de oportunidad</div>
 												</div>
 											</div>
 											<div class="column-4-12">
-												<div class="box1Pg4" id="boxPg4_3">
+												<div class="box1Pg4 animated infinite pulse" id="boxPg4_3" data-page="12">
 													<div class="ico"><img src="img/OB_IM_15.png" alt=""></div>
 													<div class="titles title3">Oportunidades de innovación</div>
 												</div>
@@ -312,12 +327,12 @@
 												</div>
 											</div>
 											<div class="column-4-12">
-												<div class="box2Pg4" id="box2Pg4_4">
+												<div class="box2Pg4" id="box2Pg4_5">
 													<p class="txt txt2">El observatorio realiza la identificación de áreas de oportunidad asociadas a los mercados y sobre las cuales se realizan informes de vigilancia tecnológica.</p>
 												</div>
 											</div>
 											<div class="column-4-12">
-												<div class="box2Pg4" id="box2Pg4_4">
+												<div class="box2Pg4" id="box2Pg4_6">
 													<p class="txt txt2">Apartir de los resultados de los puntos anteriores y articulado con las capacidades mapeadas en la ciudad, el observatorio define Oportunidades de innovación así como un mapa de actores claves a nivel nacional e internacional para cada una de ellas.</p>
 												</div>
 											</div>
@@ -344,7 +359,44 @@
 						<div id="pt-page-5" class="pt-page">
 							<div class="pageSheet">
 								<div class="contentSheet">
-									
+									<div class="headerSheet">
+										<h1 class="titlePage">Uso</h1>
+									</div>
+									<div class="column-12-12 colPage">
+										<div class="column-6-12">
+											<div class="column-10-12 push-column-1-12">
+												<div class="column-6-12 icos">
+													<div class="imgIco"><img src="img/OB_IM_03.png" alt=""></div>
+													<div class="textIco">
+														<p class="tcenter titles title2">SALUD</p>
+													</div>
+												</div>
+												<div class="column-6-12 icos">
+													<div class="imgIco"><img src="img/OB_IM_04.png" alt=""></div>
+													<div class="textIco">
+														<p class="tcenter titles title2">ENERGÍA</p>
+													</div>
+												</div>
+												<div class="column-6-12 icos">
+													<div class="imgIco"><img src="img/OB_IM_05.png" alt=""></div>
+													<div class="textIco">
+														<p class="tcenter titles title2">TIC</p>
+													</div>
+												</div>
+												<div class="column-6-12 icos">
+													<div class="imgIco imgIco4"><img src="img/OB_IM_19.png" alt=""></div>
+													<div class="textIco">
+														<p class="tcenter titles title2">BIOTECNOLOGÍA PARA EL AGRO</p>
+													</div>
+												</div>												
+											</div>
+										</div>
+										<div class="column-6-12">
+											<p class="txt tcenter title1 animated pulse infinite fire-popup-video" style="cursor: pointer;" data-vid="245038942">¿Cómo ingresar?</p>
+											<br>
+											<p class="tcenter titles title1 animated pulse infinite" ><a href="https://www.rutanmedellin.org/es/recursos/observatorio" target="_blank" style="color:#b2ce06;">Observatorio CT+i</a></p>
+										</div>
+									</div>
 								</div>								
 								<div class="navPages navLeft">
 									<div class="dl-menu">
@@ -367,17 +419,11 @@
 							<div class="pageSheet">
 								<div class="contentSheet">
 									<div class="headerSheet" style="margin-bottom: 30px">
-										<h1 class="titlePage">Enfoques</h1>
+										<h1 class="titlePage">Cierre</h1>
 									</div>
-									<div class="column-12-12" style="position: relative;">
-										<div class="elements">
-											<img src="img/OB_IM_16.png" alt="">
-										</div>
-										<div class="elements">
-											<p class="txt title1">ALERTAS DE MERCADO</p>
-										</div>
-										<div class="elements">
-											<p class="txt txt2">La innovación no debe ser confinada solo a la manufactura de productos, pues esta puede presentarse en servicios y, de la misma manera, tanto en el sector público como en el sector privado. </p>
+									<div class="column-12-12 colPage">
+										<div class="column-10-12 push-column-1-12">
+											<p class="txt tcenter txt1">El Observatorio CT+i es una herramienta que surge frente a la necesidad de conocer los mercados y focos estratégicos en los que la ciudad debe centrar sus esfuerzos en materia de inversión y desarrollo del talento humano, entre otros. A su vez tiene la tarea de actualizar constantemente estos mercados y focos estratégicos, debido al dinamismo del mercado y la alta velocidad con la que la ciencia y la tecnología avanzan. Convirtiéndose en fuente constante de retos y oportunidades para la región en materia de CT+i.</p>	
 										</div>
 									</div>
 								</div>								
@@ -388,7 +434,7 @@
 										</ul>                                                
 									</div>
 								</div>
-								<div class="navPages navRight">
+								<div class="navPages navRight off">
 									<div class="dl-menu">
 										<ul class="dl-menu">
 											<li data-animation="28" data-page="7"></li>
@@ -401,12 +447,19 @@
 						<div id="pt-page-7" class="pt-page">
 							<div class="pageSheet">
 								<div class="contentSheet">
-									
+									<div class="headerSheet" style="margin-bottom: 30px">
+										<h1 class="titlePage">Enfoques</h1>
+									</div>
+									<div class="column-12-12 colPage">
+										<div class="img"><img src="img/OB_IM_16.png" alt=""></div>
+										<p class="txt title1 tcenter">ALERTAS DE MERCADO</p>
+										<p class="txt tcenter txt1">La innovación no debe ser confinada solo a la manufactura de productos, pues esta puede presentarse en servicios y, de la misma manera, tanto en el sector público como en el sector privado.</p>
+									</div>
 								</div>								
 								<div class="navPages navLeft">
 									<div class="dl-menu">
 										<ul class="dl-menu">
-											<li data-animation="29" data-page="6"></li>
+											<li data-animation="29" data-page="4"></li>
 										</ul>                                                
 									</div>
 								</div>
@@ -423,7 +476,27 @@
 						<div id="pt-page-8" class="pt-page">
 							<div class="pageSheet">
 								<div class="contentSheet">
-									
+									<div class="headerSheet" style="margin-bottom: 30px">
+										<h1 class="titlePage">Enfoques</h1>
+									</div>
+									<div class="column-12-12 colPage">
+										<div class="column-4-12 col1">
+											<div class="imgIco">
+												<img src="img/OB_IM_16.png" alt="">
+											</div>
+											<p class="tcenter txt title1">ALERTAS DE MERCADO</p>
+											<br>
+											<p class="tcenter txt txt2">Panorama general de las principales áreas de aplicación de nuevas tecnologias en un mercado especifico y sus tendencias asociadas.</p>
+											<br>
+											<p class="tcenter txt txt2">Evidencian: <br> DRIVERS, TENDENCIAS, COMPORTAMIENTO DEL MERCADO, CASOS DE APLICACIÓN, ACTORES Y RECOMENDACIONES.</p>
+										</div>
+										<div class="column-8-12">
+											<div class="preview">
+												<img src="img/OB_IM_20.png" alt="" class="customImg fire-popup" data-pop="popup-4">
+												<img src="img/OB_IM_21.png" alt="" class="customImg fire-popup" data-pop="popup-5">
+											</div>
+										</div>
+									</div>
 								</div>								
 								<div class="navPages navLeft">
 									<div class="dl-menu">
@@ -435,7 +508,232 @@
 								<div class="navPages navRight">
 									<div class="dl-menu">
 										<ul class="dl-menu">
-											<li data-animation="28" data-page=""></li>
+											<li data-animation="28" data-page="4"></li>
+										</ul>                                                
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div id="pt-page-9" class="pt-page">
+							<div class="pageSheet">
+								<div class="contentSheet">
+									<div class="headerSheet" style="margin-bottom: 30px">
+										<h1 class="titlePage">Enfoques</h1>
+									</div>
+									<div class="column-12-12 colPage">
+										<div class="column-4-12">
+											<div class="imgIco"><img src="img/OB_IM_17.png" alt=""></div>
+											<p class="txt tcenter title1">ÁREAS DE OPORTUNIDAD</p>
+										</div>
+										<div class="column-8-12">
+											<p class="txt tcenter txt1">Los 3 mercados ofrecen un espectro muy amplio para estudio, así que se debía especificar áreas de oportunidad dentro de cada mercado que focalizaran un poco más el ejercicio del observatorio, y pudieran ofrecer información de valor en temáticas – tendencia en el MUNDO.</p>
+										</div>
+										<div class="column-10-12 colSection">
+											<div class="column-4-12">
+												<p class="titles tcenter title2 tAction animated pulse infinite">SALUD</p>
+												<ul>
+													<li class="txt2">Energías alternativas y renovables, con énfasis en energía solar, eólica no tradicional, micro y pico centrales</li>
+													<li class="txt2">Biohidrocarburos obtenidos a partir de algas</li>
+													<li class="txt2">Almacenamiento de hidrógeno</li>
+													<li class="txt2">Almacenamiento de energía eléctrica</li>
+													<li class="txt2">Microredes Inteligente</li>
+													<li class="txt2">Medición Inteligente</li>
+												</ul>
+											</div>
+											<div class="column-4-12">
+												<p class="titles tcenter title2 tAction animated pulse infinite">ENERGÍA</p>
+												<ul>
+													<li class="txt2">Nanomedicina</li>
+													<li class="txt2">Ingeniería de Tejidos y Terapia Celular</li>
+													<li class="txt2">Terapia génica</li>
+													<li class="txt2">Telesalud</li>
+													<li class="txt2">Informática Biomédica</li>
+													<li class="txt2">Agentes terapéuticos para el tratamiento de complicaciones asociadas a la obesidad, énfasis diabetes</li>
+													<li class="txt2">Enfermedades tropicales</li>
+												</ul>
+											</div>
+											<div class="column-4-12">
+												<p class="titles tcenter title2 tAction animated pulse infinite">TIC</p>
+												<ul>
+													<li class="txt2">Videojuegos para móviles</li>
+													<li class="txt2">Aplicaciones móviles en Salud</li>
+													<li class="txt2">Internet of Things</li>
+													<li class="txt2">Big Data</li>
+													<li class="txt2">Plataformas de infraestructura y aplicaciones  Cloud Computing</li>
+													<li class="txt2">SSO - Smart Water Management</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>								
+								<div class="navPages navLeft">
+									<div class="dl-menu">
+										<ul class="dl-menu">
+											<li data-animation="29" data-page="4"></li>
+										</ul>                                                
+									</div>
+								</div>
+								<div class="navPages navRight">
+									<div class="dl-menu">
+										<ul class="dl-menu">
+											<li data-animation="28" data-page="10"></li>
+										</ul>                                                
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div id="pt-page-10" class="pt-page">
+							<div class="pageSheet">
+								<div class="contentSheet">
+									<div class="headerSheet" style="margin-bottom: 30px">
+										<h1 class="titlePage">Enfoques</h1>
+									</div>
+									<div class="column-12-12 colPage">
+										<div class="column-11-12">
+											<div class="column-4-12">
+												<div class="imgIco"><img src="img/OB_IM_17.png" alt=""></div>
+												<p class="txt tcenter title1">VIGILANCIAS TECNOLÓGICAS</p>
+												<br>
+												<p class="txt tcenter txt2">Ofrecen información sobre las áreas de oportunidad asociadas a un mercado específico. Ejemplo: Realidad Virtual es un área de oportunidad del mercado TIC</p>
+												<br>
+												<p class="txt tcenter txt2">Facilitan el ANÁLISIS Y LA REFLEXIÓN PARA LA TOMA DE DECISIONES ESTRATÉGICAS en los procesos de desarrollo de nuevos negocios o proyectos en las áreas de oportunidad identificadas. </p>
+											</div>
+											<div class="column-7-12 push-column-1-12 customCol">
+												<div class="stick">
+													<div class="titles title1 tcenter">60</div>
+													<div class="box">
+														<p class="txt3 tcenter">ESTUDIOS DE VIGILANCIA TECNOLÓGICA E INTELIGENCIA COMPETITIVA</p>
+														<br>
+														<p class="txt3 tcenter">(Energía, TIC, Salud, Biotecnologia para el Agro, otros)</p>
+													</div>
+												</div>
+												<div class="column-6-12">
+													<div class="titles title3">GENERALIDADES</div>
+													<p class="txt3 txt">Mapa conceptual del área de oportunidad <br> Caracteristicas <br>Delimitación del concepto</p>
+												</div>
+												<div class="column-6-12">
+													<div class="titles title3">MERCADO DE LA TECNOLOGÍA</div>
+													<p class="txt3 txt">
+														Tendencias, lideres y dinámicas en investigación. <br>
+														Tendencias, actores destacados.
+													</p>
+												</div>
+												<div class="column-6-12">
+													<div class="titles title3">MERCADO DE PRODUCTOS Y SERVICIOS</div>
+													<p class="txt3 txt">
+														Drivers <br>
+														Crecimiento del mercado <br>
+														Cadena de valor y mercados <br> 
+														objetivo <br>
+														Marco regulatorio <br>
+														Casos reales
+													</p>
+												</div>
+												<div class="column-6-12">
+													<div class="titles title3">OPORTUNIDADES</div>
+													<p class="txt3 txt">
+														Factores competitivos clave <br>
+														¿Cómo esta Medellín? <br>
+														Plan de acción <br>
+														Recomendaciones
+													</p>
+												</div>
+											</div>
+											<div class="flecha animated infinite slideInLeft"><img src="img/OB_IM_33.png" alt=""></div>
+										</div>
+									</div>
+								</div>								
+								<div class="navPages navLeft">
+									<div class="dl-menu">
+										<ul class="dl-menu">
+											<li data-animation="29" data-page="9"></li>
+										</ul>                                                
+									</div>
+								</div>
+								<div class="navPages navRight">
+									<div class="dl-menu">
+										<ul class="dl-menu">
+											<li data-animation="28" data-page="11"></li>
+										</ul>                                                
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div id="pt-page-11" class="pt-page">
+							<div class="pageSheet">
+								<div class="contentSheet">
+									<div class="headerSheet" style="margin-bottom: 30px">
+										<h1 class="titlePage">Enfoques</h1>
+									</div>
+									<div class="column-12-12 gallery">
+										<div class="viewer">
+											<div class="slide" id="slide1"><img src="img/OB_IM_25.png" alt=""></div>
+											<div class="slide" id="slide2"><img src="img/OB_IM_26.png" alt=""></div>
+											<div class="slide" id="slide3"><img src="img/OB_IM_27.png" alt=""></div>
+											<div class="slide" id="slide4"><img src="img/OB_IM_28.png" alt=""></div>
+											<div class="slide" id="slide5"><img src="img/OB_IM_29.png" alt=""></div>
+											<div class="slide" id="slide6"><img src="img/OB_IM_30.png" alt=""></div>
+										</div>
+										<div class="controls">
+											<div class="arrows icon-arrow-left" data-move="p"></div>
+											<div class="arrows icon-arrow-right" data-move="n"></div>
+										</div>
+									</div>
+								</div>								
+								<div class="navPages navLeft">
+									<div class="dl-menu">
+										<ul class="dl-menu">
+											<li data-animation="29" data-page="10"></li>
+										</ul>                                                
+									</div>
+								</div>
+								<div class="navPages navRight">
+									<div class="dl-menu">
+										<ul class="dl-menu">
+											<li data-animation="28" data-page="4"></li>
+										</ul>                                                
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div id="pt-page-12" class="pt-page">
+							<div class="pageSheet">
+								<div class="contentSheet">
+									<div class="headerSheet" style="margin-bottom: 30px">
+										<h1 class="titlePage">Enfoques</h1>
+									</div>
+									<div class="column-12-12 colPage">
+										<div class="column-6-12" style="margin-bottom: 30px">
+											<div class="imgIco">
+												<img src="img/OB_IM_18.png" alt="">
+											</div>
+											<p class="txt title1">OPORTUNIDADES DE INNOVACIÓN</p>
+										</div>
+										<div class="column-10-12">
+											<ul>
+												<li class="txt txt1"><span>Tendencias</span> indentificadas en mercados estratégicos</li>
+												<li class="txt txt1"><span>Oportunidades</span> que pueden explorarse para el desarrollo de nuevos productos y servicios</li>
+												<li class="txt txt1">Desarrollo de <span>nuevos</span> productos y servicios en linea con drivers de diferentes mercados</li>
+												<li class="txt txt1">Información sobre <span>actores</span> internacioanles y locales: alianzas, mercados destino</li>
+											</ul>
+										</div>
+									</div>
+								</div>								
+								<div class="navPages navLeft">
+									<div class="dl-menu">
+										<ul class="dl-menu">
+											<li data-animation="29" data-page="4"></li>
+										</ul>                                                
+									</div>
+								</div>
+								<div class="navPages navRight">
+									<div class="dl-menu">
+										<ul class="dl-menu">
+											<li data-animation="28" data-page="4"></li>
 										</ul>                                                
 									</div>
 								</div>
@@ -446,6 +744,43 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- Popups Content HTML -->
+		<script id="popup-1" type="text/template">
+		    <div class="content-pop">
+				<div class="info-pop dflex-pop">
+					<img src="img/OB_IM_31.png" alt="">
+				</div>
+		    </div>
+		</script>
+
+		<script id="popup-2" type="text/template">
+		    <div class="content-pop">
+				<div class="info-pop dflex-pop">
+					<p class="txt tcenter">El observatorio de CT+i es una herramienta que fue concebida a raíz del acuerdo 024 del concejo de Medellín, en donde se estipulaba que durante 10 años (2011-2021) se tendría un Plan de CT+i que garantizara recursos para  invertir en apuestas estratégicas que  habilitarán la generación de desarrollo económico y bienestar social. <br> En el momento de la creación del Plan CT+i, la ciudad definió que habría 3 mercados estratégicos (energía, salud y TIC), seleccionados de acuerdo a las capacidades locales que se tenían en la ciudad en estos temas, y que a su vez, tenían un gran potencial global de mercado</p>
+				</div>
+		    </div>
+		</script>
+
+		<script id="popup-3" type="text/template">
+		    <div class="content-pop">
+				<div class="info-pop dflex-pop">
+					<img src="img/OB_IM_32.png" alt="">
+				</div>
+		    </div>
+		</script>
+
+		<script id="popup-4" class="img-popup" type="text/template">
+			<div class="full-image">
+				<img src="img/OB_IM_22.png" alt="">
+			</div>
+		</script>
+
+		<script id="popup-5" class="img-popup" type="text/template">
+			<div class="full-image">
+				<img src="img/OB_IM_24.png" alt="">
+			</div>
+		</script>
 		
 		<script type="text/javascript" src="js/vendors.min.js"></script>
 		<script type="text/javascript" src="js/default.js"></script>

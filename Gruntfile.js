@@ -47,7 +47,7 @@ module.exports = function(grunt) {
 			target: {
 				files: {
 					'css/vendors.css': 	[
-						// "css/fonts.css",
+						"css/fonts.css",
 						"node_modules/bootstrap/dist/css/bootstrap.css",
 						"node_modules/jquery-ui/dist/jquery-ui.css",
 						"node_modules/jScrollPane/style/jquery.jscrollpane.css",
