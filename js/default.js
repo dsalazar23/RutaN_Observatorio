@@ -72,21 +72,21 @@ PageTransitions.loadedPage('pt-page-2', false, function(page){
 
 
 PageTransitions.loadedPage('pt-page-4', false, function(page){
-	$('.box1Pg4').on('mouseover', function(event) {
-		var id = $(this).attr('id');
+	// $('.box1Pg4').on('mouseover', function(event) {
+	// 	var id = $(this).attr('id');
 
-		switch(id){
-			case "boxPg4_1":
-				$('#box2Pg4_4').css('opacity', '1').addClass('animated fadeIn');
-			break;
-			case "boxPg4_2":
-				$('#box2Pg4_5').css('opacity', '1').addClass('animated fadeIn');
-			break;
-			case "boxPg4_3":
-				$('#box2Pg4_6').css('opacity', '1').addClass('animated fadeIn');
-			break;
-		}
-	});
+	// 	switch(id){
+	// 		case "boxPg4_1":
+	// 			$('#box2Pg4_4').css('opacity', '1').addClass('animated fadeIn');
+	// 		break;
+	// 		case "boxPg4_2":
+	// 			$('#box2Pg4_5').css('opacity', '1').addClass('animated fadeIn');
+	// 		break;
+	// 		case "boxPg4_3":
+	// 			$('#box2Pg4_6').css('opacity', '1').addClass('animated fadeIn');
+	// 		break;
+	// 	}
+	// });
 });
 
 PageTransitions.loadedPage('pt-page-8', true, function(page){
